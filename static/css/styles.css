@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    color: #fff;
+}
+
+ul {
+    list-style: none
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* Main */
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
+    user-select: none;
+    color: #CCC;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    background: rgb(150, 150, 150);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(150, 150, 150, 1)), color-stop(100%, rgba(89, 89, 89, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#969696', endColorstr = '#595959', GradientType = 1);
+
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 650px;
+    height: 90px;
+    margin: -45px 0 0 -325px;
+}
+
+#page-title {
+    color: #CCC;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .7)
+}
+
+.flip-clock-divider .flip-clock-label {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    font-size: 1.25em;
+}
+
+#bottom-message {
+    position: absolute;
+    clear: both;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    margin-top: 85px;
+}
+
+#bottom-message p {
+    font-size: 2em;
+}
+
+#bottom-message a {
+    text-decoration: underline;
+}
