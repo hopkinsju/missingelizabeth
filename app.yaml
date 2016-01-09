@@ -25,6 +25,9 @@ entrypoint: custom
 skip_files:
  - ^v?env$
 
-instance_class: B1
+resources:
+  cpu: .5
+  memory_gb: .18
+  disk_size_gb: 10
 manual_scaling:
   instances: 1
